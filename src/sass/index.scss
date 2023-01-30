@@ -1,2 +1,9 @@
-// @import './common';
-// @import './example';
+@import './base/common';
+
+
+@import './layout/container.scss';
+@import './layout/card-container.scss';
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
