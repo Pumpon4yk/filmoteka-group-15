@@ -1,0 +1,22 @@
+.card__container{
+    height: 440px;
+
+
+    @media screen and (max-width: 767px ){
+        max-width: 440px;
+    }
+
+    @media screen and (min-width: 768px ) {
+        flex-basis: calc((100% - 32px) / 2);
+
+        width: 336px;
+        height: 495px;
+    }
+
+    @media screen and (min-width: 1200px ) {
+        flex-basis: calc((100% - 32px) / 3);
+
+        width: 395px;
+        height: 634px;
+    }
+}
